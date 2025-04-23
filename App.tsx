@@ -15,8 +15,8 @@ function App(): React.JSX.Element {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={startBackgroundWork}>
-        <Text>Start Work Manager</Text>
+      <TouchableOpacity style={{padding: 24}} onPress={startBackgroundWork}>
+        <Text style={{fontSize: 24, fontFamily: 'bold'}}>Start Work Manager</Text>
       </TouchableOpacity>
     </View>
   );
